@@ -357,6 +357,14 @@ main {
   background-color: #e8f0ff;
 }
 
+.game-art.parodox {
+  background-color: #e8f8df;
+  background-image:
+    radial-gradient(circle at 30% 20%, rgba(255, 247, 130, 0.48), transparent 34%),
+    linear-gradient(135deg, rgba(53, 130, 31, 0.18), rgba(23, 104, 183, 0.14)),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.16) 0 8px, rgba(0, 0, 0, 0.04) 8px 16px);
+}
+
 .game-body {
   display: grid;
   grid-template-rows: auto 1fr auto auto;
